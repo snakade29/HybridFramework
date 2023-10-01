@@ -27,15 +27,20 @@ public class BrowserFactory {
 		if(browserName.contains("Chrome") || browserName.contains("GC") || browserName.contains("Google Chrome"))
 		{
 //			System.setProperty( "webdriver.chrome.driver","D:\\Software\\Chrome\\chromedriver-win64\\chromedriver.exe" );
-//			 ChromeOptions option = new ChromeOptions();
+			 
 //			 option.setBinary("D:\\Software\\Chrome\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
-//			driver=new ChromeDriver(option);
-//			ChromeOptions options = new ChromeOptions();
-//			options.addArguments("--remote-allow-origins=*");
-			  driver = new ChromeDriver();
+			 
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver=new ChromeDriver(options);
 			 
 		
 		}
+		
+		 
+		
+		
+		
 		else if(browserName.contains("Firefox"))
 		{
 			driver=new FirefoxDriver();
@@ -53,11 +58,11 @@ public class BrowserFactory {
 //			 ChromeOptions option = new ChromeOptions();
 //			 option.setBinary("D:\\Software\\Chrome\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
 //			driver=new ChromeDriver(option);
-			driver = new ChromeDriver();
+//			driver = new ChromeDriver();
 			 
-//			ChromeOptions options = new ChromeOptions();
-//			options.addArguments("--remote-allow-origins=*");
-//			  driver = new ChromeDriver(options);
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			  driver = new ChromeDriver(options);
 		}
 		
 		driver.manage().window().maximize();
