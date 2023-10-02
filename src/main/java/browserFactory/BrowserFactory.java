@@ -32,14 +32,8 @@ public class BrowserFactory {
 			 	driver=new ChromeDriver(option);
 			 
 //			options.addArguments("--remote-allow-origins=*");
-		 
-			 
-		
+
 		}
-		
-		 
-		
-		
 		
 		else if(browserName.contains("Firefox"))
 		{
