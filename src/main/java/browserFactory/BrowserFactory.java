@@ -26,13 +26,13 @@ public class BrowserFactory {
 		
 		if(browserName.contains("Chrome") || browserName.contains("GC") || browserName.contains("Google Chrome"))
 		{
-//			System.setProperty( "webdriver.chrome.driver","D:\\Software\\Chrome\\chromedriver-win64\\chromedriver.exe" );
+			System.setProperty( "webdriver.chrome.driver","D:\\Software\\Chrome\\chromedriver-win64\\chromedriver.exe" );
+			 ChromeOptions option = new ChromeOptions();
+			 option.setBinary("D:\\Software\\Chrome\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
+			 	driver=new ChromeDriver(option);
 			 
-//			 option.setBinary("D:\\Software\\Chrome\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
-			 
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--remote-allow-origins=*");
-			driver=new ChromeDriver(options);
+//			options.addArguments("--remote-allow-origins=*");
+		 
 			 
 		
 		}
@@ -54,10 +54,10 @@ public class BrowserFactory {
 			driver=new EdgeDriver();
 		}
 		else {
-//			 System.setProperty( "webdriver.chrome.driver","D:\\Software\\Chrome\\chromedriver-win64\\chromedriver.exe" );
-//			 ChromeOptions option = new ChromeOptions();
-//			 option.setBinary("D:\\Software\\Chrome\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
-//			driver=new ChromeDriver(option);
+			 System.setProperty( "webdriver.chrome.driver","D:\\Software\\Chrome\\chromedriver-win64\\chromedriver.exe" );
+			 ChromeOptions option = new ChromeOptions();
+			 option.setBinary("D:\\Software\\Chrome\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
+			driver=new ChromeDriver(option);
 //			driver = new ChromeDriver();
 			 
 			ChromeOptions options = new ChromeOptions();

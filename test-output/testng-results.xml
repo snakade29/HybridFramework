@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-02T01:45:59 IST" name="Suite" finished-at="2023-10-02T01:46:06 IST" duration-ms="7640">
+  <suite started-at="2023-10-02T17:28:26 IST" name="Suite" finished-at="2023-10-02T17:28:45 IST" duration-ms="18934">
     <groups>
     </groups>
-    <test started-at="2023-10-02T01:45:59 IST" name="Test" finished-at="2023-10-02T01:46:06 IST" duration-ms="7640">
+    <test started-at="2023-10-02T17:28:26 IST" name="Test" finished-at="2023-10-02T17:28:45 IST" duration-ms="18934">
       <class name="testCases.LoginTest">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.LoginTest@3fc9504b]" started-at="2023-10-02T01:46:00 IST" name="setupBrowser" finished-at="2023-10-02T01:46:03 IST" duration-ms="3659" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.LoginTest@8c3619e]" started-at="2023-10-02T17:28:27 IST" name="setupBrowser" finished-at="2023-10-02T17:28:41 IST" duration-ms="14421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@3fc9504b]" started-at="2023-10-02T01:46:03 IST" name="loginToApplication" data-provider="loginDetails" finished-at="2023-10-02T01:46:04 IST" duration-ms="357" status="PASS">
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@8c3619e]" started-at="2023-10-02T17:28:41 IST" name="loginToApplication" data-provider="loginDetails" finished-at="2023-10-02T17:28:41 IST" duration-ms="331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.LoginTest@3fc9504b]" started-at="2023-10-02T01:46:04 IST" name="closeBrowser" finished-at="2023-10-02T01:46:04 IST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.LoginTest@8c3619e]" started-at="2023-10-02T17:28:42 IST" name="closeBrowser" finished-at="2023-10-02T17:28:42 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.LoginTest@3fc9504b]" started-at="2023-10-02T01:46:04 IST" name="setupBrowser" finished-at="2023-10-02T01:46:06 IST" duration-ms="1811" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.LoginTest@8c3619e]" started-at="2023-10-02T17:28:42 IST" name="setupBrowser" finished-at="2023-10-02T17:28:44 IST" duration-ms="2227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@3fc9504b]" started-at="2023-10-02T01:46:06 IST" name="loginToApplication" data-provider="loginDetails" finished-at="2023-10-02T01:46:06 IST" duration-ms="269" status="PASS">
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@8c3619e]" started-at="2023-10-02T17:28:44 IST" name="loginToApplication" data-provider="loginDetails" finished-at="2023-10-02T17:28:44 IST" duration-ms="287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.LoginTest@3fc9504b]" started-at="2023-10-02T01:46:06 IST" name="closeBrowser" finished-at="2023-10-02T01:46:06 IST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.LoginTest@8c3619e]" started-at="2023-10-02T17:28:45 IST" name="closeBrowser" finished-at="2023-10-02T17:28:45 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
